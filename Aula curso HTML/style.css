@@ -1,0 +1,35 @@
+/* Altera o estilo do corpo inteiro da página */
+body{
+    background-color: #202020; /* Cor de fundo (cinza escuro) */
+    color: white;              /* Cor padrão de todos os textos */
+    text-align: center;        /* Centraliza os textos e imagens */
+    font-family: Arial;        /* Define a fonte como Arial */
+}
+
+/* Estilo dos títulos <h1> */
+h1{
+    color: orange;      /* Cor laranja */
+    font-size: 50px;    /* Tamanho da fonte */
+}
+
+/* Estilo dos parágrafos <p> */
+p{
+    font-size: 22px;    /* Tamanho da fonte */
+}
+
+/* Estilo das imagens */
+img{
+    width: 250px;       /* Largura da imagem */
+    border-radius: 20px;/* Deixa as bordas arredondadas */
+}
+
+/* Estilo das listas (ul = lista com bolinhas | ol = lista numerada) */
+ul, ol{
+    list-style-position: inside; /* Aproxima as bolinhas e números do texto */
+    padding: 0;                  /* Remove o espaço interno padrão da lista */
+}
+
+/* Estilo de cada item da lista */
+li{
+    margin: 5px 0; /* Dá um pequeno espaço entre um item e outro */
+}
