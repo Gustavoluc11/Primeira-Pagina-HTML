@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #222;
+    font-family: Arial;
+}
+
+
+.calculadora {
+    background: #333;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+#visor {
+    width: 280px;
+    height: 60px;
+
+    font-size: 30px;
+    text-align: right;
+
+    margin-bottom: 15px;
+}
+
+
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    gap: 10px;
+}
+
+
+button {
+    height: 60px;
+    font-size: 25px;
+
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+
+button:hover {
+    background: #aaa;
+}
+
+
+.zero {
+    grid-column: span 2;
+}
